@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    border: solid blue 1px;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    /* border: solid red 2px; */
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+.game-board{
+    display: grid;
+    border: solid black 1px;
+    width: 200px;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grids{
+    display: grid;
+    border: solid black 1px;
+}
+
+a{
+    display: grid;
+    /* width: 1fr; */
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
